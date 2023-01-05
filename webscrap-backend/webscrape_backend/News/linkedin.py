@@ -76,8 +76,8 @@ def update_company_posts(
         company_instance (LinkedInCompanyInfo): LinkedInCompanyInfo instance
     """
     linkedin_obj = Linkedin(
-        username="balamanij94@gmail.com",
-        password="Bala@1994",
+        username="userID",
+        password="password",
     )
     company_instance.company_posts = linkedin_obj.get_company_updates(
         public_id=company_instance.public_name,
