@@ -33,8 +33,8 @@ def get_instagram_SessionId():
     time = int(datetime.now().timestamp())
 
     payload = {
-        'username': 'balamanij94@gmail.com',
-        'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:Bala@1994',
+        'username': 'userID',
+        'enc_password': f'#PWD_INSTAGRAM_BROWSER:0:{time}:password',
         'queryParams': {},
         'optIntoOneTap': 'false'
     }
