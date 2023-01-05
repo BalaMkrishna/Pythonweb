@@ -26,10 +26,10 @@ def storeToAzuretableTwitterNews():
     container.upsert_item(data, partition_key=data["lastName"])
 
 
-CONSUMER_KEY = "Se3wwpvFOWKQhVDmGHvSx5pgG"
-CONSUMER_SECRET = "NJTa1KwFM8NpqQ4uOA6U4O4fHhKJlqhiVyekHPaIQNWJzyxmFN"
-ACCESS_TOKEN = "118354703-H7IiyRivf4e2gyEKcjKGRarcK6SmvuuIKovrUs4l"
-ACCESS_TOKEN_SECRET = "hq1fPCPL3BcKtHqqFX1Xv27Fc4L9GXG8KNSsN6EIXZxy2"
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
 
 T_AUTH = tweepy.OAuth1UserHandler(
     CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
